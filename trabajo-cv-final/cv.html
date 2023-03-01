@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>trabajo Final</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <link rel="icon" type="image/png" href="294179342_5165449303571405_4600605847164609533_n.jpg" sizes="16x16">
+</head>
+<body> 
+     <!--menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Agustina</a>
+            </div>
+            <nav id="nav">
+               <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi"onclick="seleccionar()"> SOBRE MI</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()"> CURRICULUM</a></li>
+                </ul>
+            </nav>
+        
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i> 
+            </div>
+        </header>
+    </div>
+
+     <!---seccion inicio---->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                  <img src="laboratorio-computacion-moderno-equipado_23-2149241220 (1).avif">
+                </div>
+                <h1>Agustina Rodas</h1>
+                <h2>Front End</h2>
+               <div class="redes">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-skype"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"><i class="fa-solid fa-square-rss"></i></a>
+                </div>
+            </div>
+        </section>
+        
+
+       <!--SECCION SOBRE MI-->
+<section class="sobremi" id="sobremi">
+
+    <div class="contenido-seccion">
+         <h2>Sobre Mí</h2>
+         <p><span>Hola, soy Agustina Rodas.</span>Lorem ipsum dolor sit amet, 
+             consectetur adipiscing elit. Nunc porta tristique sem et molestie. 
+             Sed venenatis ex at magna sagittis, id molestie est interdum. 
+            Curabitur imperdiet turpis sed mauris sodales, porttitor ullamcorper s
+            apien condimentum. Cras dolor augue, pharetra et scelerisque in, ultrices a sapien. 
+            Phasellus ut laoreet urna.</p>
+         
+            <div class="fila">
+              <!--datos personales-->
+              <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        18/08/1999
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        011 25272830
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        example2023@gmail.com 
+                    </li>
+                    <li>
+                        <strong>Website</strong>
+                        www.example.com.ar 
+                    </li>
+                    <li>
+                        <strong>Direccion</strong>
+                        123 Buenos Aires, Argentina
+                    </li>
+                </ul>
+              </div>
+              <!--intereses-->
+              <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                </div>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <span>GYM</span>
+                    </div>
+                </div>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-sharp fa-solid fa-plane"></i>
+                        <span>VIAJES</span>
+                    </div>
+                </div>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-brands fa-apple"></i>
+                        <span>MAC OS</span>
+                    </div>
+                </div>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>lIBROS</span>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+    <button> 
+        DESCARG CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+    </button>
+</section>
+<!--SECCION CURRICULUM-->
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>curriculum</h2>
+        <div class="fila">
+            <div class="col-izquierda">
+                <h3>Educacion</h3>
+                <div class="item izq">
+                    <h4>Arte Y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque molestiae quisquam suscipit vitae exercitationem quis consequuntur perspiciatis dolores delectus expedita reiciendis, autem commodi perferendis qui repellat voluptates repudiandae hic.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Arte Y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque molestiae quisquam suscipit vitae exercitationem quis consequuntur perspiciatis dolores delectus expedita reiciendis, autem commodi perferendis qui repellat voluptates repudiandae hic.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Arte Y Multimedia</h4>
+                    <span class="casa">Universidad de Oxford</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque molestiae quisquam suscipit vitae exercitationem quis consequuntur perspiciatis dolores delectus expedita reiciendis, autem commodi perferendis qui repellat voluptates repudiandae hic.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Front End</h4>
+                    <span class="casa">Nombre de compañía</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque molestiae quisquam suscipit vitae exercitationem quis consequuntur perspiciatis dolores delectus expedita reiciendis, autem commodi perferendis qui repellat voluptates repudiandae hic.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Front End</h4>
+                    <span class="casa">Nombre de compañía</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque molestiae quisquam suscipit vitae exercitationem quis consequuntur perspiciatis dolores delectus expedita reiciendis, autem commodi perferendis qui repellat voluptates repudiandae hic.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div> 
+                <div class="item der">
+                    <h4>Front End</h4>
+                    <span class="casa">Nombre de compañía</span>
+                    <span class="fecha">2005-2008</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque molestiae quisquam suscipit vitae exercitationem quis consequuntur perspiciatis dolores delectus expedita reiciendis, autem commodi perferendis qui repellat voluptates repudiandae hic.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+   <div class="redes">
+     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+     <a href="#"><i class="fa-brands fa-skype"></i></a>
+     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+     <a href="#"><i class="fa-solid fa-rss"></i></a>
+    </div>
+</footer>
+
+<script src="stiles.css/styles.js"></script>
+</body>
+</html>
